@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+img {
+  max-width: 50vw;
+  max-height: 25vw;
+  display: block;
+  margin: auto;
+}
+body{
+  background-color: #c7c5c4c5;
+}
+form {
+  display: flex;
+  justify-content: center;
+  gap: 0.5em;
+  flex-flow: row wrap;
+  max-width: 40vw;
+  margin: auto;
+  align-items: baseline;
+}
+
+button[type="submit"] {
+  padding: 5px 20px;
+  margin: 10px auto;
+  float: right;
+}
+
+.btn {
+  background-color: rgb(21, 153, 21);
+  padding: 5px 20px;
+  margin: 10px auto;
+}
+
+.btn:hover {
+  background-color: rgb(6, 68, 6);
+  color: rgb(240, 186, 186);
+}
+
+.new {
+  background-color: rgb(227, 117, 241);
+  padding: 5px 20px;
+  margin: 10px auto;
+}
+
+.new:hover {
+  background-color: rgba(149, 8, 214, 0.74);
+  color: rgb(53, 32, 32);
+}
